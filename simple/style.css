@@ -1,0 +1,154 @@
+/*
+Theme Name: Simple
+Author: ninjulia
+Author URI: https://www.udemy.com/course/learn-to-create-wordpress-themes-by-building-10-projects/
+Description: Simple theme created as part of the Udemy Tutorial - Learn to Create Wordpress Themes by Building 10 Projects https://www.udemy.com/course/learn-to-create-wordpress-themes-by-building-10-projects/
+Version: 1.0
+*/
+html, body{
+    height:100%;
+    width:100%;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  font-family:Arial;
+  font-size:15px;
+  color:#333333;
+  background:#f4f4f4;
+  margin:0;
+  padding:0;
+  line-height: 1.7em;
+}
+
+a{
+  color:#333333;
+}
+
+header{
+  background:#393939;
+  color:#ffffff;
+  padding:20px 2em;
+}
+
+.main-nav{
+  background:#000000;
+  color:#ffffff;
+  padding:1em 2em;
+}
+
+.main-nav ul{
+  margin:0;
+  padding:0;
+}
+
+.main-nav li{
+  list-style: none;
+  float:left;
+  padding-right: 15px;
+}
+
+.main-nav a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+  color:#ffffff;
+  text-decoration: underline;
+}
+
+header h1{
+  color:#ffffff;
+  margin:0;
+  padding:0, 0, 10px, 0;
+}
+
+.container{
+  max-width:1020px;
+  margin:0 auto;
+  overflow:auto;
+}
+
+main{
+  margin:15px 0;
+  flex:1 0 auto;
+  padding:2em;
+}
+
+main .container{
+  display:flex;
+  flex-direction: row;
+}
+
+.content{
+  flex:1 0 60%;
+}
+
+.sidebar{
+  flex:0 0 30%;
+  padding:2em;
+}
+
+.side-widget{
+  border:1px solid #cccccc;
+  padding:1em;
+  margin-bottom:2em;
+}
+
+.side-widget ul{
+  margin:0;
+  padding:0;
+}
+
+.side-widget li{
+  list-style: none;
+}
+
+.side-widget a{
+  text-decoration: none;
+  margin-bottom:1em;
+}
+
+.side-widget a:hover{
+  text-decoration: underline;
+}
+
+article.post{
+  border-bottom:1px solid #333333;
+  overflow:hidden;
+  padding-bottom:20px;
+}
+
+article.post a.button{
+  display:inline-block;
+  background:#333333;
+  color:#ffffff;
+  padding:10px 5px;
+  margin-bottom:10px;
+  text-decoration: none;
+}
+
+.post-thumbnail{
+  width:100%;
+  height:auto;
+  display:none;
+}
+.meta{
+  background:#333333;
+  color:#ffffff;
+  padding:10px 5px;
+}
+
+.meta a{
+  color:#ffffff;
+}
+
+footer{
+  background:#393939;
+  color:#ffffff;
+  padding:10px;
+  text-align:center;
+  flex-shrink:0;
+}
